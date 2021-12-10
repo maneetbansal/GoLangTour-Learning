@@ -20,7 +20,7 @@ func Sqrt(x float64) (float64, error) {
 	if x < 0 {
 		return 0, ErrNegativeSqrt(x)
 	} else {
-		// I used the sqrt definition created in earlier excercise
+		// I used the sqrt definition created in earlier exercise
 		// You can also use math.Sqrt(x)
 		return sqrtPositive(x), nil
 	}
